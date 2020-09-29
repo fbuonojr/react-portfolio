@@ -6,7 +6,11 @@ import Col from "../components/Col";
 function AboutMe() {
     return(
         <Container>
-
+            <Row>
+                <Col size="lg-12">
+                    <h1>About Me</h1>
+                </Col>
+            </Row>
         </Container>
     )
 }
