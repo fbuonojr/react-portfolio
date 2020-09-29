@@ -1,7 +1,9 @@
 import React from "react";
+import Picture from "./portfolio-pic.png";
 import Container from "../components/Container"
 import Row from "../components/Row";
 import Col from "../components/Col";
+import "./about.css";
 
 function AboutMe() {
     return (
@@ -13,7 +15,7 @@ function AboutMe() {
             </Row>
             <Row>
                 <Col size="lg-3">
-
+                    <img className="profPic" src={Picture} alt="ProfilePic"/>
                 </Col>
                 <Col size="lg-9">
                     <p>
